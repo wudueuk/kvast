@@ -1,0 +1,737 @@
+body {
+    min-width: 1200;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #000;
+    background-color: white;
+    word-wrap: break-word;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container-big {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+  
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    background-image: url("img/wheat-back.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+    
+}
+
+.page-header {
+  color: #c3c3c3;
+  background-color: #363636;
+}
+
+.header-top {
+    margin: 0;
+}
+
+.header-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+
+.header-logo img {
+    width: 140px;
+    height: 76px;
+  }
+
+.main-nav {
+    float: right;
+    width: 600px;
+    list-style: none;
+    margin: 0;
+    margin-top: 9px;
+    padding: 0;
+    border-top: 1px solid #a38e5c;
+    border-bottom: 1px solid #a38e5c;
+}
+
+.main-nav li {
+    float: left;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.promo {
+    margin: 0 auto;
+    margin-top: 120px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.catalog {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.goods-group {
+    margin-top: 75px;
+}
+
+.good-card {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 15px;
+    width: 348px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.good-card:last-child {
+    float: right;
+    border-left: 0;
+}
+.good-card table {
+    position: absolute;
+    top: 83px;
+    right: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    width: 150px;
+    border-collapse: collapse;
+}
+
+.good-card td {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 41px;
+    border: 1px solid #e4e4e4;
+    text-align: left;
+}
+
+.good-card-name {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.good-comment {
+    display: inline-block;
+    position: absolute;
+    top: 162px;
+    right: 22px;
+    width: 150px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+    font-weight: normal;
+    text-align: left;
+    word-wrap: none;
+}
+
+.good-card img {
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.good-info {
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 62px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid #834700;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    line-height: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.btn-info {
+    width: 140px;
+    color: #834700;
+    background-color: white;
+}
+
+.btn-buy {
+    width: 107px;
+    color: #fff;
+    background-color: #834700;
+}
+
+.good-price {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.advantages {
+    margin: 0;
+    background-color: #ffcd78;
+    padding: 80px 0 90px 0;
+}
+
+.advantages h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.advantages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.advantages-item {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    text-align: left;
+}
+
+.advantages-item:first-child {
+    padding-right: 90px;
+}
+
+.advantages-item:nth-child(2) {
+    padding-left: 100px;
+    padding-right: 90px;
+    border-left: 1px solid #e5b66c;
+}
+.advantages-item:last-child {
+    float: right;
+    padding-left: 90px;
+    border-left: 1px solid #e5b66c;
+}
+
+.advantages-item p {
+    line-height: 30px;
+}
+
+.advantages-self {
+    position: relative;
+    padding-top: 90px;
+}
+
+.advantages-self::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 68px;
+    background-image: url("img/icon-brew.png");
+    background-repeat: no-repeat;
+}
+
+.advantages-own{
+    position: relative;
+    padding-top: 90px;
+}
+
+.advantages-own::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 90;
+    width: 46px;
+    height: 65px;
+    background-image: url("img/icon-matreshka.png");
+    background-repeat: no-repeat;
+}
+
+.advantages-econom{
+    position: relative;
+    padding-top: 90px;
+}
+
+.advantages-econom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100;
+    width: 63px;
+    height: 58px;
+    background-image: url("img/icon-thumbsup.png");
+    background-repeat: no-repeat;
+}
+
+.history {
+    margin: 0;
+    padding: 80px 0;
+    line-height: 30px;
+}
+
+.history dl {
+    margin-top: 60px;
+    padding: 0;
+}
+
+.history-title {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.two-title {
+    margin-top: 60px;
+}
+
+.history dd {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.reference-source {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: italic;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.reference-source a {
+    color: #976a42;
+}
+
+.history dd img {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 200px;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.history-text {
+    margin: 0;
+    padding-right: 310px;
+}
+
+.press-about-us {
+    margin: 0;
+    padding: 80px 0;
+    background-color: #ede5d8;
+}
+
+.review-item {
+    position: relative;
+    padding: 0;  
+    margin: 0;
+    margin-top: 75px;
+}
+
+.review-item p {
+    font-size: 16px;
+    margin-right: 110px;
+    margin-bottom: 34px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.review-item p::before {
+    content: "";
+    font-size: 0;
+    position: absolute;
+    top: 4px;
+    left: -105px;
+    width: 41px;
+    height: 31px;
+    background-image: url("img/quotes.png");
+    background-repeat: no-repeat;
+}
+
+.review-button {
+    border: 2px solid #a6a097;
+    width: 160px;
+    color: #a6a097;
+}
+
+.review-author {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.price-list {
+    margin: 0;
+    padding: 90px 0;
+    background-color: white;
+}
+
+.price-table {
+    margin: 0;
+    padding: 0;
+    margin-top: 75px;
+    border-collapse: collapse;
+}
+
+.price-table tr {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.price-table th {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999999;
+    text-align: left;
+    height: 60px;
+    vertical-align: top;
+}
+
+.price-table td {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    height: 65px;
+    vertical-align: middle;
+}
+
+.color-grey {
+    color: #404040;
+}
+.price-table .price-list-name {
+    font-weight: bold;
+    width: 400px;
+}
+
+.price-list .price-list-alc {
+    width: 95px;
+}
+
+.price-list .price-list-ccal {
+    width: 65px;
+}
+
+.price-list .price-list-volume {
+    width: 65px;
+}
+.price-list .price-list-cost {
+    text-align: right;
+    width: 175px;
+}
+
+.price-list sup {
+    margin-left: 20px;
+    padding: 2px 5px;
+    font-size: 8px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.order {
+    margin: 0;
+    padding: 80px 0;
+    background-color: #ffcd78;
+}
+
+.order-comment {
+    display: inline-block;
+    margin: 75px 0 65px 0;
+    width: 660px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+}
+
+.order-form {
+    width: 630px;
+    margin: 0;
+    padding: 0;
+}
+
+.order-form-group {
+    margin-bottom: 25px;
+}
+
+.order-form-group label,
+.order-form-checkbox label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 9px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.order-form input[type="text"],
+.order-form textarea {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    background-color: #e5b66c;
+    font: inherit;
+    color: #404040;
+    text-transform: uppercase;
+    border: 0;
+    width: 100%;
+    
+}
+
+.order-form input[type="text"] {
+    height: 50px;
+}
+
+.order-form textarea {
+    display: block;
+    min-height: 120px;
+}
+
+.left-part {
+  float: left;
+}
+
+.right-part {
+  float: right;
+}
+
+.left-part,
+.right-part {
+  width: 280px;
+}
+
+.order-form-checkbox {
+    margin-top: 50px;
+}
+.order-form .btn {
+  margin-top: 40px;
+  width: 200px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #754811;
+}
+
+.page-footer {
+    padding: 60px 0;
+    background-color: black;
+    color: white;
+}
+
+.footer-group {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+    vertical-align: middle;
+}
+
+.footer-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+    margin-left: 37px;
+}
+
+.footer-menu {
+    float: right;
+    width: 600px;
+    list-style: none;
+    margin: 0;
+    margin-top: 7px;
+    margin-right: 107px;
+    padding: 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.footer-menu li {
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.social,
+.copyright {
+    float: left;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.social-btn {
+    display: inline-block;
+    font-size: 0;
+    width: 70px;
+    height: 66px;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    border: 1px solid #333;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.insta {
+    background-image: url('img/icon-insta.png');
+}
+
+.facebook {
+    background-image: url('img/icon-fb.png');
+    margin-left: -1px;
+}
+
+.vk {
+    background-image: url('img/icon-vk.png');
+    margin-left: -2px;
+}
+
+.copyright {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin-left: 95px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #979797;
+}
+
+.academy-group {
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+}
+
+.academy-logo {
+    margin: 0;
+    padding: 18px 21px;
+    background-color: #1b1b1b;
+    border: 1px solid #333;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.deverloper {
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #979797;
+    text-decoration: none;
+}
+
+.academy {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #979797;
+    text-decoration: none;
+}
